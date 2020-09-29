@@ -27,3 +27,7 @@ nav {
     background: none;
     border: none;
 }
+
+.nav-desktop {
+    display: none;
+}
