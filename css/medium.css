@@ -23,3 +23,12 @@
 .nav-desktop li a:hover {
     color: rgb(0, 183, 255);
 }
+
+/*HEADER*/
+.header-text h1 {
+    font-size: 46px;
+}
+
+.header-text p {
+    font-size: 20px;
+}
