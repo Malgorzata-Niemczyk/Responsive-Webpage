@@ -173,3 +173,20 @@ main h2 {
 
 .product-text p {
     transition: transform .5s;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h3 {
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+}
+
+.contact i {
+    font-size: 20px;
+    margin-right: 10px;
+    line-height: 160%;
+}
+
