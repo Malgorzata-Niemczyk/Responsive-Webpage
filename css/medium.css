@@ -32,3 +32,12 @@
 .header-text p {
     font-size: 20px;
 }
+
+/*MAIN*/
+.main-product { 
+    width: 50%;
+}
+
+.product-text {
+    font-size: 22px;
+}
