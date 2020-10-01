@@ -103,6 +103,19 @@ main h2 {
     text-transform: uppercase;
 }
 
+.underline {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    left: calc(50% - 30px);
+    bottom: -5px;
+    width: 60px;
+    height: 3px;
+    background-color: rgb(40, 157, 192);
+}
+
 .about-us p {
     padding: 0 20px;
 }
@@ -114,6 +127,14 @@ main h2 {
     display: inline-block;
     background-size: cover;
     background-position: center;
+}
+
+.main-product:hover .product-text h3 {
+    transform: scale(1.2);
+}
+
+.main-product:hover .product-text p {
+    transform: scale(1.2);
 }
 
 .first-product {
@@ -147,4 +168,8 @@ main h2 {
     font-size: 27px;
     margin-bottom: 5px;
     text-transform: uppercase;
+    transition: transform .5s;
 }
+
+.product-text p {
+    transition: transform .5s;
