@@ -190,3 +190,10 @@ main h2 {
     line-height: 160%;
 }
 
+/*FOOTER*/
+footer {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+}
